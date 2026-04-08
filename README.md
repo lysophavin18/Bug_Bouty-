@@ -47,7 +47,7 @@ Follow these phases in order to maximize coverage and efficiency:
 
 ### 4. Exploitation & Proof of Concept (PoC)
 - Verify the vulnerability is real and exploitable
-- Build a minimal, non-destructive PoC
+- Build a minimal, non-destructive PoC (avoid modifying production data, accessing other users' accounts, or causing service disruption — demonstrate the vulnerability exists without exploiting it further)
 - Document the impact clearly
 
 ### 5. Reporting
